@@ -31,3 +31,12 @@ ctx.fillRect(150, 100, 150, 550);
 ctx.fillRect(170, 40, 110, 60);
 // Small Top
 ctx.fillRect(190, 20, 70, 20);
+
+//Loops
+
+window.onload = draw;
+
+function draw() {
+  ctx.fillStyle = "white";
+  ctx.fillRect(165, 130, 15, 490);
+}
